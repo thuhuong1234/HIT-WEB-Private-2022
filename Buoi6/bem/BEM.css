@@ -1,0 +1,39 @@
+.btn{
+    margin-top:100px ;
+    display:inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding:12px 38px;
+    border-radius: 50px;
+    cursor: pointer;
+    min-width: 100px;
+    transition:opacity .2s ease ;//tao ra keyform cho su thay doi
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.btn--disabled{
+    opacity:0.5!important;
+    cursor:default;
+}
+.btn +.btn{
+    margin-left: 16px;
+}
+.btn--success{
+    background-color:rgb(100, 196, 4) ;
+}
+.btn-warm{
+    background-color:chocolate ;
+}
+.btn--danger{
+    background-color:crimson ;
+}
+.btn--size-s{
+    padding:8px 32px;
+}
+
+.btn--size-l{
+    padding: 16px 48px;
+}
