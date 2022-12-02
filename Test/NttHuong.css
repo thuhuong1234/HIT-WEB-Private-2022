@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    width:100%;
+    height:50px;
+    background-color: #336699;
+    display:flex;
+    justify-content: space-between;
+   
+}
+.logo img{
+    width:100%;
+    height:90%;
+    margin-left:15px;
+    margin-top: 2px;
+}
+.search{
+    margin-top:10px;
+    margin-left: 100px;
+    background-color: aliceblue;
+    width:500px;
+    height:30px;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    border-radius: 1px;
+}
+.search a{
+    color:black;
+    margin:5px;
+
+}
+.search input{
+    border: none;
+}
+.ikon{
+    background-color: black;
+    color:aliceblue;
+    text-align: center;
+    width:100px;
+    height:30px;
+    display:flex;
+    margin-top: 10px;
+    margin-left: -150px;
+}
+.ikon i{
+    margin:5px;
+}
+.ikon p{
+    margin:5px;
+}
+.cart{
+    display:flex;
+    color:aliceblue;
+    /* margin-left:500px; */
+    
+}
+.cart p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top:10px;
+}
+.cart p:hover{
+    color:red;
+}
+.cart i{
+    color:aliceblue;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.person i {
+    color:aliceblue;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.menu{
+    width:20%;
+    margin-top: 5px;
+}
+.menu ul{
+    display:block;
+}
+.menu ul li{
+    height: 30px;
+    align-items: center;
+    display:block;
+    border:1px solid rgb(112, 112, 112);
+    list-style-type: none;
+}
+.menu a{
+    margin:10px;
+    font-size: 20px;
+}
+.menu a:hover{
+    color:#336699;
+}
+.first{
+    background-color:#336699 ;
+    color:white;
+}
+.menu .sub-menu{
+    position:absolute;
+    display:none;
+    left:260px;
+}
+.menu li:hover .sub-menu{
+    display:block;
+    color:black;
+} 
+.content{
+    position: absolute;
+    width: 70%;
+    display: flex; 
+    left: 300px;
+    top: 100px;
+    justify-content: space-around;
+    flex-wrap:wrap ;
+}
+.content-main{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none; 
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid #336699;
+}
+.content-main img{
+    width: 70%;
+    height: 70%;
+}
+.sale{
+    background-color: red;
+    color:aliceblue;
+    width:50px;
+    border-radius: 5px;
+}
