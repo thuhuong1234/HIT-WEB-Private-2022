@@ -1,0 +1,70 @@
+1.var:
+-Phạm vi của từ khóa var là phạm vi toàn cục hoặc phạm vi Function (hàm). 
+    +Biến 'a' được khai báo trên toàn cục:truy cập mọi nơi trong chương trình
+    +Biến 'a' được khai báo trong Function:nếu sử dụng ngoài hàm thì báo lỗi
+-Có thể khai báo+cập nhật lại
+-Khai báo--> sử dụng: giá trị ban đầu là không xác định
+
+2.let:
+-Phạm vi: trong 1 block, không thể truy cập ngoài block đó
+-Không thể khai báo nhưng có thể cập nhật lại, có thể khai báo biến khác trùng tên trong các block khác
+-Nếu sử dụng trước khi khai báo-->lỗi
+
+3.const:
+-Giống 'let' nhưng không thể cập nhât lại
+-Phải khai báo+ khởi tạo
+-Không thể đổi thuộc tính , nhưng có thể thay đổi giá trị
+    
+
+------Toán tử trong JS----- 
+1 Toán tử số học:
+    +
+    -
+    *
+    /
+    %
+    ++
+    --
+
+
+2 Toán tử so sánh:
+    >
+    <
+    >=
+    <=
+    ==(bằng)
+    === So sánh bằng theo cả kiểu dữ liệu và giá trị 
+    != So sánh không bằng theo giá trị 
+    !== So sánh không bằng theo cả kiểu dữ liệu và giá trị
+3 Toán tử logic (hoặc quan hệ):
+    &&: Cả hai toán hạng phải là true, thì điều kiện trở thành true.
+    ||: Chỉ cần 1 trong hai toán hạng là true, thì điều kiện trở thành true
+    ! (not):Nếu một điều kiện là true, thì toán tử NOT này sẽ làm nó false. 
+4 Toán tử gán:
+    +=:cộng dồn
+    -=:trừ dồn
+    *=:nhân dồn
+
+-----Câu lệnh điều kiên------
+    a.if(expression){
+        //câu lệnh
+    }else{
+        //câu lệnh
+    }
+    b.if(expression){
+        //câu lệnh
+    }else if(expression){
+        //câu lệnh
+    }else
+
+    c.switch(expression) {
+    case x:
+        // code block
+        break;
+    case y:
+        // code block
+        break;
+    default:
+        // code block
+    }
+

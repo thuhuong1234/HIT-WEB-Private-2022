@@ -1,0 +1,25 @@
+.box{
+    width:200px;
+    height: 200px;
+    background-color: red;
+    margin:5px;
+}
+
+/* mobile-first */
+@media screen and (min-width:768px) {
+    .box{
+        background-color: pink;
+    }
+
+}
+/* destop-first */
+@media screen and(max-width:1024px) {
+    .box{
+        background-color: pink;
+    }
+}
+@media screen and (max-width:767px) {
+    .box{
+        background-color:aqua;
+    }
+}
